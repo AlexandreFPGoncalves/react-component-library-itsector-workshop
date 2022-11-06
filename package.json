@@ -5,11 +5,10 @@
 	"scripts": {
 		"storybook": "start-storybook -p 6006",
 		"build-storybook": "build-storybook",
-		"rollup": "rollup -c"
+		"rollup": "rollup -c && npm publish"
 	},
 	"author": "Alexandre Gonçalves",
 	"license": "MIT",
-	"private": "false",
 	"devDependencies": {
 		"@babel/core": "^7.20.2",
 		"@babel/preset-react": "^7.18.6",
