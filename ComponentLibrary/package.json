@@ -1,6 +1,6 @@
 {
 	"name": "react-component-library-itsector-workshop",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "A small react component library created for a workshop presentation at @ITSector",
 	"scripts": {
 		"storybook": "start-storybook -p 6006",

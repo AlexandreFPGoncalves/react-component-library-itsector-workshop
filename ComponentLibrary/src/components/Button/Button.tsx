@@ -1,5 +1,5 @@
 import React from 'react';
-import { Lock } from 'phosphor-react';
+import { NotePencil } from 'phosphor-react';
 
 export interface ButtonProps {
 	label: string;
@@ -13,18 +13,18 @@ export const ButtonComponent: React.FC<ButtonProps> = ({ label, type, onClick, h
 		onClick={onClick}
 		style={{
 			padding: '12px 16px 12px 16px',
-			width: '400px',
+			width: '300px',
 			height: '60px',
 			cursor: 'pointer',
-			border: type === 'primary' ? 'none' : '1px solid #942551 ',
+			border: type === 'primary' ? 'none' : '1px solid #03a9f4',
 			borderRadius: '40px',
-			backgroundColor: type === 'primary' ? '#942551' : 'white',
+			backgroundColor: type === 'primary' ? '#03a9f4' : 'white',
 			color: type === 'primary' ? 'white' : 'gray',
-			fontSize: '26px',
+			fontSize: '20px',
 		}}
 	>
 		<div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center' }}>
-			{hasIcon && <Lock style={{ width: '24px', height: '24px', marginRight: '6px' }} />}
+			{hasIcon && <NotePencil style={{ width: '24px', height: '24px', marginRight: '6px' }} />}
 			{label}
 		</div>
 	</button>
