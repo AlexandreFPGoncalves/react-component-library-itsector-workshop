@@ -1,9 +1,10 @@
 {
   "name": "react-mock-application-itsector-workshop",
   "description": "Small React Application made for testing",
-  "private": false,
   "version": "0.0.1",
   "type": "module",
+  "author": "[Alexandre Gonçalves,Humberto Vieira]",
+	"license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
