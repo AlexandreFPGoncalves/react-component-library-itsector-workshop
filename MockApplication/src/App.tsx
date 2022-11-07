@@ -1,10 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.png'
-import {ButtonComponent} from "react-component-library-itsector-workshop";
-import './App.css'
+import { useState } from "react";
+import reactLogo from "./assets/react.png";
+import { ButtonComponent } from "react-component-library-itsector-workshop";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <div className="App">
@@ -15,12 +15,14 @@ function App() {
       </div>
       <h1>React Mock Application</h1>
       <div className="card">
-        <ButtonComponent type="primary" onClick={() => setCount((count) => count + 1)} label={`count is ${count}`}/>
-      
+        <ButtonComponent
+          type="primary"
+          onClick={() => setCount((count) => count + 1)}
+          label={`count is ${count}`}
+        />
       </div>
-      
     </div>
-  )
+  );
 }
 
 export default App;
