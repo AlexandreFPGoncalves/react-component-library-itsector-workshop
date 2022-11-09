@@ -5,9 +5,6 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <!-- <a href="https://github.com/github_username/repo_name"> 
-     <img src="images/logo.png" alt="Logo" width="80" height="80"> 
-  </a> -->
 
 <h3 align="center">AlexandreFPGoncalves</h3>
   <p align="center">
@@ -61,7 +58,11 @@
 
 ## About The Project
 
-Personal project where I display some of my skills and past projects.
+Project created for a presentation about Design Systems, Storybook and creating of a react component library.
+
+-   This Project contains two sub-projects one regarding the storybook and the component library itself, where you maintain and change the components locally and where finally you can update the npm version;
+    <br>
+-   The other application is mainly used to update the npm version and see the changes live.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
